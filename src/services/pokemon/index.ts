@@ -11,7 +11,7 @@ interface IFetchPokemonDetailReq {
 
 export async function fetchPokemonDetail({ id }: IFetchPokemonDetailReq) {
   try {
-    const res = await fetch(`${BASE_URL}/api/pokemon/${id}`);
+    const res = await fetch(`${BASE_URL}api/pokemon/${id}`);
 
     const { status, data } = await res.json();
 
@@ -28,7 +28,7 @@ export async function fetchPokemonDetail({ id }: IFetchPokemonDetailReq) {
 export async function fetchPokemon({ page, limit }: IFetchPokemonReq) {
   try {
     const res = await fetch(
-      `${BASE_URL}/api/pokemon?page=${page}&limit=${limit}`
+      `${BASE_URL}api/pokemon?page=${page}&limit=${limit}`
     );
 
     const { status, data } = await res.json();
