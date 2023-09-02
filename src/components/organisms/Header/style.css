@@ -1,0 +1,11 @@
+.organisms-header {
+  z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #2c3452;
+  width: 100%;
+  height: var(--header-height);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}

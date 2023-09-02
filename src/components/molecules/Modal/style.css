@@ -1,0 +1,95 @@
+@keyframes atoms-modal-open {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes atoms-modal-close {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+.atoms-modal.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.atoms-modal.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.atoms-modal.wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: auto;
+  max-height: 80%;
+  padding: 32px;
+  /* animation: `${
+    !isOpen ? openAnimation : closeAnimation
+  } 0.5s cubic-bezier(0.25; 0.46; 0.45; 0.94) both`; */
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.atoms-modal.close-wrapper {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  cursor: pointer;
+  transform: translate(50%, -50%);
+}
+
+.atoms-modal.wrapper.open {
+  animation: atoms-modal-open 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.atoms-modal.wrapper.close {
+  animation: atoms-modal-close 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.atoms-modal.center {
+  top: 50%;
+  left: 50%;
+  animation: none;
+  transform: translateX(-50%, -50%);
+  max-width: 768px;
+  height: fit-content;
+  border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+  .atoms-modal.wrapper {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 768px;
+    height: fit-content;
+    border-radius: 12px;
+  }
+
+  .atoms-modal.wrapper.open {
+    animation: none;
+  }
+
+  .atoms-modal.wrapper.close {
+    animation: none;
+  }
+}

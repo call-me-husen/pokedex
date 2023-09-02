@@ -1,0 +1,25 @@
+.molecules-pokemon-card.container {
+  margin-top: 32px;
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.molecules-pokemon-card.sprite {
+  left: 50%;
+  transform: translate(-50px, -50%);
+}
+
+.molecules-pokemon-card.info {
+  margin-top: -24px;
+}
+
+.molecules-pokemon-card.star {
+  transform: translate(50%, 0);
+}
+
+img.molecules-pokemon-card {
+  object-fit: contain;
+  width: 100px;
+  height: 100px;
+}

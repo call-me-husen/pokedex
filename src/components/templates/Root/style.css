@@ -1,0 +1,14 @@
+.templates-root-content {
+  padding: 32px;
+  padding-top: calc(var(--header-height) + 32px);
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .templates-root-content {
+    width: 992px;
+    margin: 0 auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
