@@ -4,7 +4,7 @@ Welcome to the Pokedex app! This application allows you to explore a list of Pok
 
 ## Live Demo
 
-Check out the live demo of the Pokedex app: [![Demo](https://img.shields.io/badge/See%20Demo-%F0%9F%8E%AE-blue)](https://pokedex-4zo5rja8x-call-me-husen.vercel.app/)
+Check out the live demo of the Pokedex app: [![Demo](https://img.shields.io/badge/See%20Demo-%F0%9F%8E%AE-blue)](https://pokedex-two-psi-74.vercel.app/)
 
 ## Getting Started
 
