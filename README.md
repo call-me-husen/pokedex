@@ -1,19 +1,19 @@
-# Pokedex App
+# Vacancies App
 
 Welcome to the Pokedex app! This application allows you to explore a list of Pokemon, view their details, and manage your favorite Pokemon.
 
 ## Live Demo
 
-Check out the live demo of the Pokedex app: [![Demo](https://img.shields.io/badge/See%20Demo-%F0%9F%8E%AE-blue)](https://pokedex-two-psi-74.vercel.app/)
+Check out the live demo of the Vacancies app: [DEMO](https://vacancies-1pr7s6ny2-call-me-husen.vercel.app/)
 
 ## Getting Started
 
-To get started with the Pokedex app, follow these steps:
+To get started with the Vacancies app, follow these steps:
 
 1. Clone this repository to your local machine:
 
 ```
-git clone https://github.com/call-me-husen/pokedex.git
+git clone https://github.com/call-me-husen/vacancies.git
 ```
 
 2. Install the required dependencies by running the following command in your terminal:
@@ -28,17 +28,17 @@ npm i
 npm run dev
 ```
 
-4. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the Pokedex app.
+4. Open your web browser and navigate to [http://localhost:3000](http://localhost:3000) to access the Vacancies app.
 
 ## Features
 
-The Pokedex app comes with the following features:
+The Vacancies app comes with the following features:
 
-- 📜 **View List of Pokemon**: Browse a list of Pokemon species.
+- 📜 **View List of Jobs**: Browse a list of Jobs.
 
-- 📊 **View Pokemon Details**: Click on a Pokemon to view detailed information, including its type, abilities, and stats.
+- 📊 **View Job Details**: Click on a Job to view detailed information.
 
-- ⭐ **Manage Favorite Pokemon**: Mark your favorite Pokemon.
+- ⭐ **Manage Applied Job**: Browse a list of applied jobs.
 
 ## Technical Details
 
@@ -56,22 +56,29 @@ Here are the key technical details of the Pokedex app based on the provided `pac
 
 ### Dependencies
 
-The Pokedex app relies on several dependencies, including:
+The Vacancies app relies on several dependencies, including:
 
-- 🧬 **@polkadot/api**: Version 10.9.1
-- 📚 **@types/node**: Version 20.5.8
-- ⚛️ **@types/react**: Version 18.2.21
-- ⚛️ **@types/react-dom**: Version 18.2.7
-- 🎨 **autoprefixer**: Version 10.4.15
-- 🧹 **eslint**: Version 8.48.0
+- 🧬 **@chakra-ui/icons**: Version 2.1.1
+- 📚 **@chakra-ui/react**: Version 2.8.1
+- 📚 **@emotion/react**: Version 11.11.1
+- 📚 **@emotion/styled**: Version 11.11.0
+- 🧰 **@reduxjs/toolkit**: Version 1.9.5
+- 📚 **@types/node**: Version 20.6.2
+- 📚 **@types/react**: Version 18.2.22
+- 📚 **@types/react-dom**: Version 18.2.7
+- 📅 **dayjs**: Version 1.11.10
+- 🧹 **eslint**: Version 8.49.0
 - 🧹 **eslint-config-next**: Version 13.4.19
-- 📦 **next**: Version 13.4.19
+- 🎬 **framer-motion**: Version 10.16.4
+- 🚀 **next**: Version 13.4.19
 - ⚛️ **react**: Version 18.2.0
 - ⚛️ **react-dom**: Version 18.2.0
-- 🔄 **react-query**: Version 3.39.3
-- 🎨 **tailwindcss**: Version 3.3.3
-- 📝 **typescript**: Version 5.2.2
+- 🎉 **react-icons**: Version 4.11.0
+- 🧶 **react-redux**: Version 8.1.2
+- 📜 **typescript**: Version 5.2.2
+- 📚 **@types/uuid**: Version 9.0.4
+- 🧳 **uuid**: Version 9.0.1
 
 You can find more information about each dependency by referring to the respective documentation or package repositories.
 
-Feel free to explore, modify, and enhance the Pokedex app according to your needs. Happy Pokemon hunting!
+Feel free to explore, modify, and enhance the Vacancies app according to your needs. Happy Exploring!
